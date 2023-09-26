@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const query = urlParams.get('q')
+window.location.replace('https://mockbin.org/bin/' + query);
+</script>
+</body>
+</html>
